@@ -16,7 +16,7 @@ class PizzaApp extends Component {
 
     render() {
         return (
-          <div className="app">
+          <div className="app" id="root">
               <h1>Pizza toppings</h1>
               {this.state.data.pizzas.map(function(pizza) {
                   return <h3>{pizza}</h3>

@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch';
 import React from 'react';
-import { Browser Router } from 'react-router-dom';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import App from './src/App';
 
 ReactDom.render(
     <BrowserRouter>
